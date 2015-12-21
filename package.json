@@ -1,0 +1,15 @@
+{
+  "name": "sosana-express-webpack-starter",
+  "version": "1.0.0",
+  "description": "A quick starter app for rendering a simple html page with Express.JS and Webpack",
+  "main": "app.js",
+  "scripts": {
+    "build": "webpack ./js/main.js ./public/bundle.js",
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
