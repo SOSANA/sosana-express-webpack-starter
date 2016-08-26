@@ -1,18 +1,8 @@
-#
-.project
-*.log
-*.orig
-.idea/
-*.dmp
-*.7z
-*.map
-.tags
-.tags_sorted_by_file
-.codio
-.settings
+/node_modules
 bundle.js
+npm-debug.log
+dist
 
-*.module-cache*
-node_modules
-static/assets/css/*.css
-static/assets/js/*.js
+# IntelliJ
+*.iml
+/.idea
